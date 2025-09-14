@@ -1,2 +1,28 @@
 # python-competence-analysis-task
 Research plan and reasoning for the Python Screening Task 3.
+
+My Plan for Finding a Digital Mentor for Student Programmers
+My goal isn't just to find a tool that checks for errors in a student's code. I'm looking for something more like a digital mentor—a guide that can understand a student's thought process and help lead them to those "aha!" moments where learning really sticks.
+
+My plan of action starts with a hunt for the right tool, beginning in places like Hugging Face where the community shares their work. I won't just look for the most powerful option, but the one that best fits the job. That means it needs to be genuinely open and free for anyone to use and improve upon. It also has to be a specialist, something trained specifically to understand the logic and flow of code, like Meta's Code Llama or some of the programs from Mistral AI. I'll also focus on tools of a certain size—those in the 7 to 13 billion parameter range—because that's the sweet spot where they're smart enough for deep analysis but not so huge that they require a supercomputer. Finally, it has to come with clear instructions so it can actually be put to work.
+
+Once I have a promising candidate, the real test begins. A tool's features on paper don't mean much until you see it in action. I'll collect real Python code from students who are struggling—pieces with flawed logic or inefficient solutions. Then, I’ll give the tool a core mission: to act as a patient tutor who can only ask guiding questions. My judgment won't be based on automated scores, but on the quality of its suggestions. Did it pinpoint the real issue? Did it spark curiosity? Did it help without giving the answer away? That’s the true measure of success.
+
+Here's My Reasoning
+What makes a tool right for this job?
+
+A tool is right for this job when it has a kind of "digital intuition." It needs to feel less like a machine and more like an experienced partner. This means it has to connect the dots, seeing a student's clunky code and recognizing the underlying concept they're wrestling with; it’s about getting to the root of the misunderstanding. It also has to master the art of the nudge. A great tool will understand that asking, "What do you think happens when the list you're checking is empty?" is far more powerful than just stating, "Your code fails on empty lists." It’s about empowering the student to find the answer themselves.
+
+How will I know if a suggestion is truly "meaningful"?
+
+You have to put yourself in the learner's shoes. A suggestion is meaningful if it makes the student pause and think. My test is all about the human reaction; I call it the "Does it Click?" test. I'll look at the student's problem and then at the program's question. Does it clarify the path forward, or just create more confusion? A great question also has that "Aha!" factor—it doesn't just fix a bug, it teaches a lesson. For code that's slow, a weak hint is "Use a different data structure." A meaningful one is, "I see you're checking for items in a list over and over. Is there a tool in Python's toolbox that's built for super-fast lookups?"
+
+What are the inevitable trade-offs?
+
+You're always balancing a few things. First, there's the trade-off between power and price. A giant, complex system is like a world-class expert; its advice might be brilliant, but it's expensive and slow to run. A smaller, simpler tool is like a bright teaching assistant—quick and affordable, but its insights might be more basic. Then there's the balance between clarity and control. These advanced systems are powerful, but they're also like "black boxes"—we can see the brilliant answer they give, but we can't always be sure how they got there. A traditional code checker is the opposite: we know exactly why it flags an error, but it has no deeper understanding.
+
+Why I'm Betting on Code Llama
+
+After looking at the options, the tool I'd start with is Code Llama - Instruct (13B). I'm betting on it because it’s a specialist. It wasn't just taught about programming; it was built from the ground up to understand code. The "Instruct" version is key because it has been trained to follow directions carefully, which is exactly what's needed to get it to act like a tutor. Its size is in that "sweet spot"—powerful, but not impractical.
+
+Its main strengths are its deep, almost intuitive feel for how Python code should work and its ability to stick to the "no solutions, only questions" rule. But it's important to be realistic about its limitations. This tool is a programmer, not a teacher. It doesn't understand the art of teaching or human frustration; its ability to guide a student is a skill we give it through clever instructions, not something it feels. And like any complex software, it can sometimes make things up or misinterpret a student's goal. It's a phenomenal assistant, but it can't replace the wisdom and empathy of a human teacher.
